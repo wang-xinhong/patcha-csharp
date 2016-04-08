@@ -1,0 +1,44 @@
+*/bin/*
+*/obj/*
+tags
+*.user
+*.suo
+*.v11.suo
+*.v14.suo
+Sample Apps/DynamicBlog/DynamicBlog.Tests/bin/*
+Sample Apps/DynamicBlog/DynamicBlog.Tests/obj/*
+Sample Apps/DynamicBlog/DynamicBlog/bin/*
+Sample Apps/DynamicBlog/DynamicBlog/obj/*
+Sample Apps/DynamicBlog/DynamicBlog.suo
+Sample Apps/BorrowedGames/BorrowedGames.Tests/bin/*
+Sample Apps/BorrowedGames/BorrowedGames.Tests/obj/*
+Sample Apps/BorrowedGames/BorrowedGames/bin/*
+Sample Apps/BorrowedGames/BorrowedGames/obj/*
+Sample Apps/BorrowedGames/BorrowedGames.suo
+Sample Apps/Crib/Crib.Tests/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Sample Apps/Crib/Crib/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Sample Apps/Crib/Crib.Tests/bin/*
+Sample Apps/Crib/Crib.Tests/obj/*
+Sample Apps/Crib/Crib/bin/*
+Sample Apps/Crib/Crib/obj/*
+Sample Apps/Crib/Crib.suo
+Sample Apps/BattleShip/BattleShip.Tests/bin/*
+Sample Apps/BattleShip/BattleShip.Tests/obj/*
+Sample Apps/BattleShip/BattleShip/bin/*
+Sample Apps/BattleShip/BattleShip/obj/*
+Sample Apps/BattleShip/BattleShip.suo
+Sample Apps/Peeps/Peeps.Tests/bin/*
+Sample Apps/Peeps/Peeps.Tests/obj/*
+Sample Apps/Peeps/Peeps/bin/*
+Sample Apps/Peeps/Peeps/obj/*
+Sample Apps/Peeps/Peeps.suo
+Sample Apps/TaskRabbits/TaskRabbits.Tests/bin/*
+Sample Apps/TaskRabbits/TaskRabbits.Tests/obj/*
+Sample Apps/TaskRabbits/TaskRabbits/bin/*
+Sample Apps/TaskRabbits/TaskRabbits/obj/*
+Sample Apps/TaskRabbits/TaskRabbits.suo
+_Resharper.canopy
+*.ReSharper.user
+*.sql
+_ReSharper.Oak/*
+packages/*
