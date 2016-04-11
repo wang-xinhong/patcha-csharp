@@ -55,8 +55,8 @@ namespace org.patchca.word
 
 		public RandomWordFactory()
 		{
-			characters = "absdegkmnopwx23456789";
-			minLength = 6;
+			characters = "absdegkmnopwx23456789";//"absdegkmnopwx234578";
+			minLength = 4;
 			maxLength = 6;
 		}
 

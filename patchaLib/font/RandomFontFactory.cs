@@ -39,8 +39,8 @@ namespace org.patchca.font
 			families = new List<string>();
 			families.Add("Verdana");
 			families.Add("Tahoma");
-			minSize = 45;
-			maxSize = 45;
+			minSize = 20;
+			maxSize = 60;
 		}
 
 		public RandomFontFactory(IList<string> families) : this()

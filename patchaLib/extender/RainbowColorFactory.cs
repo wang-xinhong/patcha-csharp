@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 
 namespace patchaLib.extender
 {
+    /// <summary>
+    /// Do not use this,not quite good
+    /// </summary>
     public class RainbowColorFactory : ColorFactory
     {
-
         private static java.util.Random random = new java.util.Random();
+
         public Color getColor(int x)
         {
             int[] c = new int[3];

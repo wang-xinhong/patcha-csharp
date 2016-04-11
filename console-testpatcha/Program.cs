@@ -21,13 +21,22 @@ namespace console_testpatcha
         static void Main(string[] args)
         {
             ConfigurableCaptchaService cs = new ConfigurableCaptchaService();
-            cs.ColorFactory = new RainbowColorFactory();
-            //cs.ColorFactory = new SingleColorFactory(new Color(25, 60, 170));
+            //cs.ColorFactory = new RainbowColorFactory();
+            cs.ColorFactory = new SingleColorFactory(new Color(25, 60, 170));
             cs.FilterFactory = new CurvesWithDiffuseRippleFilterFactory(cs.ColorFactory);
             //cs.FilterFactory = new CurvesRippleFilterFactory(cs.ColorFactory);
 
             FileOutputStream fos = new FileOutputStream("patcha_demo.png");
-            EncoderHelper.getChallangeAndWriteImage(cs, "png", fos);
+
+            System.Console.WriteLine(DateTime.Now);
+
+            for(int i=0; i<100; i++)
+            {
+                EncoderHelper.getChallangeAndWriteImage(cs, "png", fos);
+            }
+
+            System.Console.WriteLine(DateTime.Now);
+
             fos.close();
 
         }
